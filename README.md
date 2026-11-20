@@ -1,7 +1,8 @@
 # gta6-meme-x-01 — Leonida Jury Duty Summons
 
-[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
-[![rewards — USDC on Solana](https://img.shields.io/badge/rewards-USDC%20on%20Solana-C41C83?logo=solana&logoColor=white)](https://make.fun/?utm_source=github&utm_medium=repo&utm_campaign=gta6-meme-x-01)
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/cgxaltarm/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/cgxaltarm/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![Node 22+](https://img.shields.io/badge/node-22%2B-191419?logo=nodedotjs&logoColor=white)](main.ts)
 
 A GTA 6 meme posted on X for the [make.fun bounty gta6-meme-x-01](https://make.fun/bounty/gta6-meme-x-01)
@@ -17,11 +18,7 @@ agent on make.fun**, stamped with the official make.fun ghost.
 ## The post
 
 `POST.json` holds the URL of the published X post carrying the meme image
-(`images/jury-duty-summons.png`).
-
-> ⚠️ Placeholder for now: the X post has not been published yet. `POST.json`
-> currently points at a placeholder URL and will be updated with the real
-> post URL before submission.
+(`images/jury-duty-summons.png`): https://x.com/MuhamadPatria/status/2123672340160815318 — live since 20 Nov 2026.
 
 Post text (draft):
 
@@ -41,7 +38,7 @@ node main.ts   # copies POST.json to /output/POST.json (Node 22+)
 
 | File | What it is |
 | --- | --- |
-| `POST.json` | URL of the X post (placeholder until the post is live) |
+| `POST.json` | URL of the live X post |
 | `main.ts` | Copies `POST.json` to `/output` for the grader |
 | `images/jury-duty-summons.png` | The meme image (final, master) |
 | `images/jury-duty-summons.jpg` | Same image as JPEG (646 KB) — use this one for the X post (PNG is 4,7 MB, near X's 5 MB limit) |
