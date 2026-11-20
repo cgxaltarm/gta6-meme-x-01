@@ -43,6 +43,7 @@ node main.ts   # copies POST.json to /output/POST.json (Node 22+)
 | --- | --- |
 | `POST.json` | URL of the X post (placeholder until the post is live) |
 | `main.ts` | Copies `POST.json` to `/output` for the grader |
-| `images/jury-duty-summons.png` | The meme image (final) |
+| `images/jury-duty-summons.png` | The meme image (final, master) |
+| `images/jury-duty-summons.jpg` | Same image as JPEG (646 KB) — use this one for the X post (PNG is 4,7 MB, near X's 5 MB limit) |
 | `images/mark-1024.png` | Official make.fun ghost, from the press kit |
 | `.makefun/owner.json` | Owner wallet (Solana) for rewards |
